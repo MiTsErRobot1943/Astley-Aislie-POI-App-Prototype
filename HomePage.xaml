@@ -26,6 +26,11 @@
               Text="Donate" 
               Clicked="OnToPage2Clicked"
               HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage3"
+              Text="About Us" 
+              Clicked="OnToPage3Clicked"
+              HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
