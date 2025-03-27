@@ -22,9 +22,13 @@ namespace Astley_Aislie_POI_App_Prototype
             await Navigation.PushAsync(new Page2());
         }
 
-                private async void OnToPage3Clicked(object sender, EventArgs e)
+        private async void OnToPage3Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Page3());
+        }
+        private async void OnToPage4Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page4());
         }
     }
 }

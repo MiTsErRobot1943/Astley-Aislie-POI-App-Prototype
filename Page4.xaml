@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.Page4">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                Text="Points of Interest"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+            />
+
+            <Button
+              x:Name="T0POI1"
+              Text="The Lodges and Gates" 
+              Clicked="OnToPOI1Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI2"
+              Text="Woodlands" 
+              Clicked="OnToPOI2Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="ToHomePage"
+              Text="Go to Home Page" 
+              Clicked="OnToHomePageClicked"
+              HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
