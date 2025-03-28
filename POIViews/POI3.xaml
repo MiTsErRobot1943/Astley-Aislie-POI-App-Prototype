@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI2">
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI3">
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="20">
             <Label 
-                Text="Woodlands"
+                Text="Blackford"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Image 
-                Source="poi2.jpg"
+                Source="poi3.jpg"
                 Aspect="AspectFit"
                 HeightRequest="200"
                 WidthRequest="200"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
             <Label 
-                Text="Now a primary care centre for drugs, alcohol and blood borne viruses. According to Kirkwood’s 1817 map the original villa there was called Canaan Bank and owned by a Lieutenant General James Robertson. It was renamed Southbank, but this was demolished in the 1930’s to make way for the Nurses’ residence."
+                Text="Built in the 1930’s, now the hospital kitchen, staff canteen, dieticians’ department and District Nursing hub."
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
         </VerticalStackLayout>

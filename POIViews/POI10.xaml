@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI2">
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI10">
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="20">
             <Label 
-                Text="Woodlands"
+                Text="Pet Cemetery"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Image 
-                Source="poi2.jpg"
+                Source="poi10.jpg"
                 Aspect="AspectFit"
                 HeightRequest="200"
                 WidthRequest="200"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
             <Label 
-                Text="Now a primary care centre for drugs, alcohol and blood borne viruses. According to Kirkwood’s 1817 map the original villa there was called Canaan Bank and owned by a Lieutenant General James Robertson. It was renamed Southbank, but this was demolished in the 1930’s to make way for the Nurses’ residence."
+                Text="In the 1920s and 1930s when St Roque was still a private villa the occupants buried their family pets here in what was at that time their garden. More recently, some other local residents have also buried their family pets here."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="How many graves can you find?"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
