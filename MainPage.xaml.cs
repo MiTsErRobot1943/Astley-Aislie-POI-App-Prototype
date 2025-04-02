@@ -1,4 +1,6 @@
-﻿namespace Astley_Aislie_POI_App_Prototype
+﻿using Plugin.LocalNotification;
+
+namespace Astley_Aislie_POI_App_Prototype
 {
     public partial class MainPage : ContentPage
     {
@@ -18,6 +20,19 @@
             else
                 CounterBtn.Text = $"Clicked {count} times";
 
+            var request = new NotificationRequest
+            {
+                NotificationId = 1337,
+                Title = "Near this",
+                Subtitle = "Location",
+                Description = "this place is near",
+                BadgeNumber = 26,
+                Schedule = new NotificationRequestSchedule
+                {
+                    NotifyTime = DateTime.Now.AddSeconds(1),
+                },
+            };
+            LocalNotificationCenter.Current.Show(request);
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
