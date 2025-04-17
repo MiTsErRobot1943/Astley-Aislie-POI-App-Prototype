@@ -76,7 +76,7 @@
             <Button
               x:Name="T0POI11"
               Text="St Roque" 
-              Clicked="OnToPOI11Clicked"
+              Clicked="Notification11Clicked"
               HorizontalOptions="Fill" />
 
             <Button
