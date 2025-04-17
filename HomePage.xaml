@@ -36,6 +36,11 @@
               Text="Points of Interest" 
               Clicked="OnToPage4Clicked"
               HorizontalOptions="Fill" />
+            <Button
+              x:Name="NotificationPage"
+              Text="Notifications" 
+              Clicked="NotificationPageClicked"
+              HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -30,5 +30,10 @@ namespace Astley_Aislie_POI_App_Prototype
         {
             await Navigation.PushAsync(new Page4());
         }
+
+        private async void NotificationPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NotificationPage());
+        }
     }
 }
