@@ -1,3 +1,5 @@
+using ImageZoomApp;
+
 namespace Astley_Aislie_POI_App_Prototype
 {
     public partial class HomePage : ContentPage
@@ -20,6 +22,11 @@ namespace Astley_Aislie_POI_App_Prototype
         private async void OnToPage2Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Page2());
+        }
+
+        private async void OnToPage3Clicked(object sender, EventArgs e)
+        { 
+            await Navigation.PushAsync(new MapPage());
         }
     }
 }
