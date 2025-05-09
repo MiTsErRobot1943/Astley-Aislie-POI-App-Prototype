@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+            x:Class="Astley_Aislie_POI_App_Prototype.MapPage"  
+            Title="Our Grounds">
+    <VerticalStackLayout >
+        <Grid HeightRequest="379" WidthRequest="400" x:Name="buttonsContainer">  
+           <Grid.Resources>  
+               <Style TargetType="Button">  
+                   <Setter Property="HorizontalOptions" Value="Start" />  
+                   <Setter Property="VerticalOptions" Value="Start" />  
+                   <Setter Property="Opacity" Value="0.8" />  
+               </Style>  
+           </Grid.Resources>  
+           <Image HeightRequest="379" WidthRequest="400" Source="map_image.jpg" Rotation="-90"/>  
+           <Button Clicked="Button_Clicked" CommandParameter="15" TranslationX="285" TranslationY="44" WidthRequest="12" HeightRequest="12" CornerRadius="44" />  
+           <Button Clicked="Button_Clicked" CommandParameter="10" TranslationX="290" TranslationY="165" WidthRequest="12" HeightRequest="12" CornerRadius="44" />  
+           <Button Clicked="Button_Clicked" CommandParameter="1" TranslationX="102" TranslationY="206" WidthRequest="12" HeightRequest="12" CornerRadius="44" />  
+           <Button Clicked="Button_Clicked" CommandParameter="2" TranslationX="126" TranslationY="260" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="3" TranslationX="148" TranslationY="212" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="4" TranslationX="174" TranslationY="254" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="4" TranslationX="230" TranslationY="250" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="5" TranslationX="198" TranslationY="219" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="6" TranslationX="203" TranslationY="275" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="7" TranslationX="238" TranslationY="199" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="8" TranslationX="268" TranslationY="226" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="9" TranslationX="265" TranslationY="158" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="11" TranslationX="310" TranslationY="118" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="13" TranslationX="338" TranslationY="39" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="12" TranslationX="326" TranslationY="83" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="14" TranslationX="288" TranslationY="86" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="16" TranslationX="249" TranslationY="134" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="17" TranslationX="196" TranslationY="112" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="18" TranslationX="204" TranslationY="69" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="19" TranslationX="161" TranslationY="41" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="20" TranslationX="150" TranslationY="83" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="21" TranslationX="140" TranslationY="114" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            <Button Clicked="Button_Clicked" CommandParameter="22" TranslationX="143" TranslationY="166" WidthRequest="12" HeightRequest="12" CornerRadius="44" />
+            
+            <Ellipse x:Name="Player" Fill="Red" WidthRequest="15" HeightRequest="15" TranslationX="20" TranslationY="20"/>
+
+        </Grid>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Clicked="LeftButton" WidthRequest="50" HeightRequest="50" Text="←" FontSize="25"/>
+            <Button Clicked="UpButton" WidthRequest="50" HeightRequest="50" Text="↑" FontSize="25"/>
+            <Button Clicked="DownButton" WidthRequest="50" HeightRequest="50" Text="↓" FontSize="25"/>
+            <Button Clicked="RightButton" WidthRequest="50" HeightRequest="50" Text="→" FontSize="25"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>  
+</ContentPage>
